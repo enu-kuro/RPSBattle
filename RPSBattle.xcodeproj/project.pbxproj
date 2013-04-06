@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C227BE7A1710151100C662F1 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C227BE781710151100C662F1 /* GameLayer.cpp */; };
+		C227BE7D1710152700C662F1 /* TopLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C227BE7B1710152700C662F1 /* TopLayer.cpp */; };
+		C227BE801710154200C662F1 /* ResultLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C227BE7E1710154200C662F1 /* ResultLayer.cpp */; };
+		C227BE8317101AA300C662F1 /* RPSObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C227BE8117101AA300C662F1 /* RPSObject.cpp */; };
 		C278812C170D9672004BDDCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C278812B170D9672004BDDCD /* QuartzCore.framework */; };
 		C278812E170D9672004BDDCD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C278812D170D9672004BDDCD /* OpenGLES.framework */; };
 		C2788130170D9672004BDDCD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C278812F170D9672004BDDCD /* OpenAL.framework */; };
@@ -213,6 +217,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C227BE781710151100C662F1 /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameLayer.cpp; path = Classes/GameLayer.cpp; sourceTree = "<group>"; };
+		C227BE791710151100C662F1 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = Classes/GameLayer.h; sourceTree = "<group>"; };
+		C227BE7B1710152700C662F1 /* TopLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TopLayer.cpp; path = Classes/TopLayer.cpp; sourceTree = "<group>"; };
+		C227BE7C1710152700C662F1 /* TopLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopLayer.h; path = Classes/TopLayer.h; sourceTree = "<group>"; };
+		C227BE7E1710154200C662F1 /* ResultLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResultLayer.cpp; sourceTree = "<group>"; };
+		C227BE7F1710154200C662F1 /* ResultLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultLayer.h; sourceTree = "<group>"; };
+		C227BE8117101AA300C662F1 /* RPSObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPSObject.cpp; path = Classes/RPSObject.cpp; sourceTree = "<group>"; };
+		C227BE8217101AA300C662F1 /* RPSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPSObject.h; path = Classes/RPSObject.h; sourceTree = "<group>"; };
 		C2788128170D9672004BDDCD /* RPSBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPSBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C278812B170D9672004BDDCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C278812D170D9672004BDDCD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1595,6 +1607,14 @@
 				C27883E7170D9677004BDDCD /* AppDelegate.cpp */,
 				C27883E9170D9677004BDDCD /* HelloWorldScene.h */,
 				C27883EA170D9677004BDDCD /* HelloWorldScene.cpp */,
+				C227BE781710151100C662F1 /* GameLayer.cpp */,
+				C227BE791710151100C662F1 /* GameLayer.h */,
+				C227BE8117101AA300C662F1 /* RPSObject.cpp */,
+				C227BE8217101AA300C662F1 /* RPSObject.h */,
+				C227BE7B1710152700C662F1 /* TopLayer.cpp */,
+				C227BE7C1710152700C662F1 /* TopLayer.h */,
+				C227BE7E1710154200C662F1 /* ResultLayer.cpp */,
+				C227BE7F1710154200C662F1 /* ResultLayer.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1853,6 +1873,10 @@
 				C27883DC170D9677004BDDCD /* CCPhysicsSprite.cpp in Sources */,
 				C27883E8170D9677004BDDCD /* AppDelegate.cpp in Sources */,
 				C27883EB170D9677004BDDCD /* HelloWorldScene.cpp in Sources */,
+				C227BE7A1710151100C662F1 /* GameLayer.cpp in Sources */,
+				C227BE7D1710152700C662F1 /* TopLayer.cpp in Sources */,
+				C227BE801710154200C662F1 /* ResultLayer.cpp in Sources */,
+				C227BE8317101AA300C662F1 /* RPSObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1986,6 +2010,7 @@
 				C27883F0170D9677004BDDCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
